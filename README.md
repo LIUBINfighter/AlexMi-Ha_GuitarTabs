@@ -10,15 +10,11 @@ This repo is for debugging [alphaTab.js](https://github.com/CoderLine/alphaTab) 
 
 So AI will write a lot but may waste your time. I write this for your minimal action.
 
-**1. Install dependencies**
-
 ```bash
 npm install
 ```
 
-Installs the required alphaTab library for GP5 file processing.
-
-**2. Run validation**
+**Run validation**
 
 My result: [./data/report.example.json](./data/report.example.json)
 
@@ -26,9 +22,9 @@ My result: [./data/report.example.json](./data/report.example.json)
 node scripts/gp-error-filter.js --in data/raw --out data/error
 ```
 
-Validates all GP5 files by exporting to alphaTex format and re-importing. Failed files and their alphaTex exports are saved to error along with a detailed JSON report. Result on your machine will be [report.json](./data/error/report.json)
+Validates all GP5 files by exporting to alphaTex format and re-importing. Failed files and their alphaTex exports are saved to error along with a detailed JSON report. Results on your machine will be [report.json](./data/error/report.json), `./data/error/fail_atex`,`./data/error/failed_gp5`.
 
-**3. Analyze errors**
+**Analyze errors**
 
 My result: [error-analysis.example.txt](./data/error-analysis.example.txt)
 
