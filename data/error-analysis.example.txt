@@ -1,0 +1,100 @@
+═══════════════════════════════════════════════════════════════
+                   ERROR ANALYSIS REPORT                       
+═══════════════════════════════════════════════════════════════
+
+OVERVIEW
+─────────────────────────────────────────────────────────────
+Generated At:     2026/2/1 21:40:09
+Input Directory:  \data\raw
+Total Files:      80
+Passed:           53 (66.3%)
+Failed:           27 (33.8%)
+
+ERROR TYPE DISTRIBUTION
+─────────────────────────────────────────────────────────────
+Lexer Errors:        0 (0.0%)
+Parser Errors:       0 (0.0%)
+Semantic Errors:   365 (100.0%)
+Total:             365
+
+TOP ERROR CODES
+─────────────────────────────────────────────────────────────
+Code   Count  Files  Sample Message
+─────────────────────────────────────────────────────────────
+  209    256     18  Unexpected percussion articulation value 'unknown'...
+  218    109     14  Wrong note kind 'Fretted' for staff with note kind...
+
+ERROR MESSAGE PATTERNS
+─────────────────────────────────────────────────────────────
+
+Percussion Articulation
+  Count:       256
+  Affected:    18 files
+  Examples:
+    - Architects - Hereafter.gp5
+      Unexpected percussion articulation value 'unknown', expected: oneOf(hand (hit),handhit,tinkle bell (hat),tinklebellhat,cymbal (hit),cymbalhit,snare (s...
+    - Avenged Sevenfold - Second Heartbeat.gp5
+      Unexpected percussion articulation value 'unknown', expected: oneOf(hand (hit),handhit,tinkle bell (hat),tinklebellhat,cymbal (hit),cymbalhit,snare (s...
+    - Avenged Sevenfold - Second Heartbeat.gp5
+      Unexpected percussion articulation value 'unknown', expected: oneOf(hand (hit),handhit,tinkle bell (hat),tinklebellhat,cymbal (hit),cymbalhit,snare (s...
+
+Note Kind Mismatch
+  Count:       109
+  Affected:    14 files
+  Examples:
+    - Avenged Sevenfold - A Little Piece of Heaven.gp5
+      Wrong note kind 'Fretted' for staff with note kind ''Articulation'. Do not mix incompatible staves and notes.
+    - Avenged Sevenfold - A Little Piece of Heaven.gp5
+      Wrong note kind 'Fretted' for staff with note kind ''Articulation'. Do not mix incompatible staves and notes.
+    - Avenged Sevenfold - A Little Piece of Heaven.gp5
+      Wrong note kind 'Fretted' for staff with note kind ''Articulation'. Do not mix incompatible staves and notes.
+
+FILES WITH MOST ERRORS (Top 10)
+─────────────────────────────────────────────────────────────
+Errors  File
+─────────────────────────────────────────────────────────────
+    88  Bullet for my Valentine - Hearts burst into fire.gp5
+    73  Green Day - Basket Case.gp5
+    40  Green Day - Wake Me Up When September Ends.gp5
+    19  Guns N' Roses - Don't Cry.gp5
+    19  System Of A Down - Chop Suey!.gp5
+    17  Bullet For My Valentine - Tears Don't Fall.gp5
+    14  Meg & Dia - Monster.gp5
+    12  Avenged Sevenfold - Unholy Confessions.gp5
+    11  Guns N' Roses - Sweet Child O' Mine.gp5
+     8  Killswitch Engage - My Curse.gp5
+
+ERROR BREAKDOWN BY FILE
+─────────────────────────────────────────────────────────────
+File                                      L    P    S   Total
+─────────────────────────────────────────────────────────────
+Bullet for my Valentine - Hearts burst int   0    0   88      88
+Green Day - Basket Case.gp5                  0    0   73      73
+Green Day - Wake Me Up When September Ends   0    0   40      40
+Guns N' Roses - Don't Cry.gp5                0    0   19      19
+System Of A Down - Chop Suey!.gp5            0    0   19      19
+Bullet For My Valentine - Tears Don't Fall   0    0   17      17
+Meg & Dia - Monster.gp5                      0    0   14      14
+Avenged Sevenfold - Unholy Confessions.gp5   0    0   12      12
+Guns N' Roses - Sweet Child O' Mine.gp5      0    0   11      11
+Killswitch Engage - My Curse.gp5             0    0    8       8
+Skillet - Save Me.gp5                        0    0    8       8
+Green Day - 21 Guns.gp5                      0    0    7       7
+Tool - Schism.gp5                            0    0    7       7
+System Of A Down - Aerials.gp5               0    0    6       6
+Avenged Sevenfold - Second Heartbeat.gp5     0    0    5       5
+Dream Theater - Untethered Angel.gp5         0    0    5       5
+Nirvana - Heart Shaped Box.gp5               0    0    4       4
+Avenged Sevenfold - A Little Piece of Heav   0    0    3       3
+Jinjer - Perennial.gp5                       0    0    3       3
+Metallica - Nothing Else Matters.gp5         0    0    3       3
+Toby Fox - Megalovania.gp5                   0    0    3       3
+Bullet For My Valentine - Forever And Alwa   0    0    2       2
+Canon Rock.gp5                               0    0    2       2
+Green Day - Boulevard Of Broken Dreams.gp5   0    0    2       2
+Metallica - Enter Sandman.gp5                0    0    2       2
+Architects - Hereafter.gp5                   0    0    1       1
+Legend Of Zelda Tribute.gp5                  0    0    1       1
+
+Legend: L=Lexer, P=Parser, S=Semantic
+═══════════════════════════════════════════════════════════════

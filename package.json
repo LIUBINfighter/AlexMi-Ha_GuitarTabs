@@ -1,0 +1,24 @@
+{
+  "name": "alexmi-ha_guitartabs",
+  "version": "1.0.0",
+  "description": "🎵🎵🎵",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LIUBINfighter/AlexMi-Ha_GuitarTabs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LIUBINfighter/AlexMi-Ha_GuitarTabs/issues"
+  },
+  "homepage": "https://github.com/LIUBINfighter/AlexMi-Ha_GuitarTabs#readme",
+  "dependencies": {
+    "@coderline/alphatab": "^1.8.0"
+  }
+}
