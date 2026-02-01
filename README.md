@@ -1,12 +1,10 @@
-# Debug for alphaTex
-
-This repo is for debugging [alphaTab.js](https://github.com/CoderLine/alphaTab) alphaTex exporter. The original README is [here](./data/README.md). Thanks to [AlexMi-Ha/GuitarTabs](https://github.com/AlexMi-Ha/GuitarTabs) for the scores!
+# Reproduce errors export and import alphaTex
 
 ## Version
 
 "@coderline/alphatab": "^1.8.0"
 
-## Quick Start
+## Quick Start to Reproduce the alphaTex exporter errors
 
 So AI will write a lot but may waste your time. I write this for your minimal action.
 
@@ -159,3 +157,7 @@ This analysis helps identify:
 - Common error patterns that need fixing in alphaTab
 - Files with the most issues for targeted investigation
 - Specific error codes to prioritize in bug fixes
+
+## For the origin repo
+
+This repo is for debugging [alphaTab.js](https://github.com/CoderLine/alphaTab) alphaTex exporter. The original README is [here](./data/README.md). Thanks to [AlexMi-Ha/GuitarTabs](https://github.com/AlexMi-Ha/GuitarTabs) for the scores!
