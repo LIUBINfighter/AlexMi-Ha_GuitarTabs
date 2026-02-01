@@ -2,7 +2,7 @@
 
 ## Version
 
-"@coderline/alphatab": "^1.8.0"
+`"@coderline/alphatab": "^1.8.0"`
 
 ## Quick Start to Reproduce the alphaTex exporter errors
 
@@ -75,8 +75,9 @@ node scripts/gp-error-filter.js --in data/raw --out data/error
 
 After running the script, the output directory will contain:
 
-```
+```bash
 data/error/
+├── error-analysis.txt   # Statistical analysis of error patterns
 ├── report.json          # Detailed JSON report with error diagnostics
 ├── log.txt             # Simple text log (one line per file)
 ├── failed_gp5/         # GP5 files that failed validation
